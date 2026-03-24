@@ -10,7 +10,13 @@ A lightweight macOS menubar app that reminds you to start Notion's AI Meeting No
 - Sends a macOS notification 1 minute before each meeting
 - Menubar icon turns red when a meeting is live
 
-## Prerequisites
+## Download
+
+**[Download MeetingBuddy v1.0.0](https://github.com/kawus/MeetingBuddy/releases/latest/download/MeetingBuddy.zip)** — unzip, move to Applications, and run. No Xcode needed.
+
+> If macOS blocks the app, go to System Settings → Privacy & Security and click "Open Anyway".
+
+## Prerequisites (building from source)
 
 - macOS 14.0 (Sonoma) or later
 - Xcode 15+ (to build from source)
