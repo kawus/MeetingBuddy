@@ -22,10 +22,12 @@ struct MenuBarLabel: View {
 
     var body: some View {
         let hasLive = !calendarManager.liveMeetings.isEmpty
-        Image(systemName: hasLive ? "record.circle.fill" : "mic.circle")
-            .symbolRenderingMode(.palette)
-            .foregroundStyle(hasLive ? Color.red : Color.primary)
-            .imageScale(.large)
+        Image(nsImage: {
+            let image = NSImage(systemSymbolName: hasLive ? "record.circle.fill" : "mic.circle", accessibilityDescription: "MeetingBuddy")!
+            image.size = NSSize(width: 18, height: 18)
+            image.isTemplate = !hasLive
+            return image
+        }())
     }
 }
 
