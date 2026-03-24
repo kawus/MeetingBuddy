@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089C166500000020 /* MeetingBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C166500000010 /* MeetingBuddyApp.swift */; };
+		089C166500000021 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C166500000011 /* CalendarManager.swift */; };
+		089C166500000022 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C166500000012 /* NotificationManager.swift */; };
+		089C166500000023 /* NotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C166500000013 /* NotionHelper.swift */; };
+		089C166500000024 /* MeetingMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C166500000014 /* MeetingMenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C166500000005 /* MeetingBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		089C166500000010 /* MeetingBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingBuddyApp.swift; sourceTree = "<group>"; };
+		089C166500000011 /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		089C166500000012 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		089C166500000013 /* NotionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionHelper.swift; sourceTree = "<group>"; };
+		089C166500000014 /* MeetingMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMenuView.swift; sourceTree = "<group>"; };
+		089C166500000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089C166500000016 /* MeetingBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeetingBuddy.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089C166500000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166500000002 /* root */ = {
+			isa = PBXGroup;
+			children = (
+				089C166500000003 /* MeetingBuddy */,
+				089C166500000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		089C166500000003 /* MeetingBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				089C166500000010 /* MeetingBuddyApp.swift */,
+				089C166500000011 /* CalendarManager.swift */,
+				089C166500000012 /* NotificationManager.swift */,
+				089C166500000013 /* NotionHelper.swift */,
+				089C166500000014 /* MeetingMenuView.swift */,
+				089C166500000015 /* Info.plist */,
+				089C166500000016 /* MeetingBuddy.entitlements */,
+			);
+			path = MeetingBuddy;
+			sourceTree = "<group>";
+		};
+		089C166500000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				089C166500000005 /* MeetingBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		089C166500000006 /* MeetingBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089C16650000000A /* Build configuration list for PBXNativeTarget "MeetingBuddy" */;
+			buildPhases = (
+				089C166500000007 /* Sources */,
+				089C166500000008 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingBuddy;
+			productName = MeetingBuddy;
+			productReference = 089C166500000005 /* MeetingBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C166500000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = 089C166500000009 /* Build configuration list for PBXProject "MeetingBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 089C166500000002 /* root */;
+			productRefGroup = 089C166500000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				089C166500000006 /* MeetingBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089C166500000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089C166500000020 /* MeetingBuddyApp.swift in Sources */,
+				089C166500000021 /* CalendarManager.swift in Sources */,
+				089C166500000022 /* NotificationManager.swift in Sources */,
+				089C166500000023 /* NotionHelper.swift in Sources */,
+				089C166500000024 /* MeetingMenuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		089C16650000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		089C16650000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		089C16650000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MeetingBuddy/MeetingBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetingBuddy/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "MeetingBuddy needs calendar access to show your upcoming meetings and remind you to start Notion transcription.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawus.MeetingBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		089C16650000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MeetingBuddy/MeetingBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetingBuddy/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "MeetingBuddy needs calendar access to show your upcoming meetings and remind you to start Notion transcription.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawus.MeetingBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		089C166500000009 /* Build configuration list for PBXProject "MeetingBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089C16650000000B /* Debug */,
+				089C16650000000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089C16650000000A /* Build configuration list for PBXNativeTarget "MeetingBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089C16650000000D /* Debug */,
+				089C16650000000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 089C166500000001 /* Project object */;
+}
