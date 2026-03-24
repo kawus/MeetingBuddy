@@ -33,14 +33,7 @@ struct MeetingMenuView: View {
 
             // Footer
             HStack {
-                Button("Open Notion") {
-                    NotionHelper.openMeetingsPage()
-                }
-                .buttonStyle(.plain)
-                .foregroundColor(.accentColor)
-
                 Spacer()
-
                 Button("Quit") {
                     NSApplication.shared.terminate(nil)
                 }

@@ -21,21 +21,10 @@ struct MenuBarLabel: View {
     @ObservedObject var calendarManager: CalendarManager
 
     var body: some View {
-        HStack(spacing: 4) {
-            Image(systemName: "mic.circle.fill")
-            if let next = calendarManager.nextMeeting {
-                let minutes = minutesUntil(next.startDate)
-                if minutes <= 0 {
-                    Text("LIVE")
-                } else if minutes <= 60 {
-                    Text("\(minutes)m")
-                }
-            }
-        }
-    }
-
-    private func minutesUntil(_ date: Date) -> Int {
-        Int(date.timeIntervalSinceNow / 60)
+        let hasLive = !calendarManager.liveMeetings.isEmpty
+        Image(systemName: hasLive ? "record.circle.fill" : "mic.circle")
+            .symbolRenderingMode(.palette)
+            .foregroundStyle(hasLive ? Color.red : Color.primary)
     }
 }
 
