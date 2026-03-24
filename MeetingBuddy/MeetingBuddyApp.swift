@@ -24,7 +24,7 @@ struct MenuBarLabel: View {
         let hasLive = !calendarManager.liveMeetings.isEmpty
         Image(nsImage: {
             let config = NSImage.SymbolConfiguration(pointSize: 16, weight: .medium)
-            let name = hasLive ? "record.circle.fill" : "mic.fill"
+            let name = hasLive ? "record.circle.fill" : "mic.circle"
             let image = NSImage(systemSymbolName: name, accessibilityDescription: "MeetingBuddy")!
                 .withSymbolConfiguration(config)!
             image.isTemplate = !hasLive
