@@ -25,6 +25,7 @@ struct MenuBarLabel: View {
         Image(systemName: hasLive ? "record.circle.fill" : "mic.circle")
             .symbolRenderingMode(.palette)
             .foregroundStyle(hasLive ? Color.red : Color.primary)
+            .font(.system(size: 16))
     }
 }
 
