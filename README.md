@@ -14,16 +14,11 @@ A lightweight macOS menubar app that reminds you to start Notion's AI Meeting No
 
 **[Download MeetingBuddy v1.0.0](https://github.com/kawus/MeetingBuddy/releases/latest/download/MeetingBuddy.zip)**
 
-### First-time setup
+### Install
 
 1. Download and unzip `MeetingBuddy.zip`
 2. Move `MeetingBuddy.app` to your **Applications** folder
-3. **Before opening**, right-click (or Control-click) the app and select **Open**
-4. macOS will warn it's from an unidentified developer — click **Open** to confirm
-
-> This only needs to be done once. After that, MeetingBuddy opens normally.
->
-> **Why the warning?** The app isn't signed with an Apple Developer certificate. It's open source — you can inspect the code or build it yourself if you prefer.
+3. Double-click to open — the app is signed and notarized by Apple, no warnings
 
 ## Prerequisites (building from source)
 
